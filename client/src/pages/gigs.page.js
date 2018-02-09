@@ -10,7 +10,9 @@ export default class Gigs extends Component {
             <div>
                 <h1>gigs</h1>
                 <h2>upcoming</h2>
+
                 <h2>past</h2>
+
             </div>
         )
     }
