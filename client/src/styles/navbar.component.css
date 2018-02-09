@@ -1,6 +1,8 @@
 
 .navbar {
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height:25px;
 }
 
 ul {
@@ -12,7 +14,16 @@ ul {
 
 li {
     display: inline;
-    margin-right: 7px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .refs {
