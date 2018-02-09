@@ -1,10 +1,10 @@
 import React from "react";
 import {Component} from "react";
 import {Link} from "react-router-dom";
-import bandcamp from '../images/bandcamp-icon.png';
-import youtube from '../images/youtube-icon.png';
-import facebook from '../images/facebook-icon.png';
-import '../styles/navbar.component.css';
+import bandcamp from '../assets/images/bandcamp-icon.png';
+import youtube from '../assets/images/youtube-icon.png';
+import facebook from '../assets/images/facebook-icon.png';
+import '../assets/styles/navbar.component.css';
 
 
 export default class Navbar extends Component {

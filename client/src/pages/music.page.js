@@ -1,7 +1,7 @@
 
 import React from "react";
 import {Component} from "react";
-import '../styles/music.page.css';
+import '../assets/styles/music.page.css';
 
 
 export default class Music extends Component {

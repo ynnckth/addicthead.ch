@@ -13,3 +13,9 @@
     width: 310px;
     height: 690px;
 }
+
+@media screen and (max-width: 600px) {
+    .album {
+        margin: auto;
+    }
+}

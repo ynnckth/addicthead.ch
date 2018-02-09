@@ -10,7 +10,7 @@ import Gigs from "./pages/gigs.page";
 import Gallery from "./pages/gallery.page";
 import About from "./pages/about.page";
 import Contact from "./pages/contact.page";
-import './styles/app.css';
+import './assets/styles/app.css';
 
 
 export default class App extends Component {
