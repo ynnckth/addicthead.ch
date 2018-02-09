@@ -1,4 +1,8 @@
 
+:global(*) {
+    font-family:"Courier New", Courier, monospace;
+}
+
 .main {
     max-width: 960px;
     height: 100%;

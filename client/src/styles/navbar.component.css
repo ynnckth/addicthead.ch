@@ -1,0 +1,29 @@
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.refs {
+    float: right;
+}
+
+a img {
+    border: 0 none;
+}
+
+.link {
+    margin-left: 3px;
+    text-decoration: none;
+}
