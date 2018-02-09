@@ -1,0 +1,15 @@
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album {
+    margin: 5px 3px;
+}
+
+.bandcamp-player {
+    border: 0;
+    width: 310px;
+    height: 690px;
+}

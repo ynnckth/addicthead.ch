@@ -3,6 +3,10 @@
     font-family:"Courier New", Courier, monospace;
 }
 
+h2 {
+    font-size: 1.1em;
+}
+
 .main {
     max-width: 960px;
     height: 100%;
