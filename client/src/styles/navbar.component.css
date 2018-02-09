@@ -30,11 +30,11 @@ a:hover {
     float: right;
 }
 
-a img {
-    border: 0 none;
-}
-
 .link {
     margin-left: 3px;
     text-decoration: none;
+}
+
+.link img {
+    border: 0 none;
 }
