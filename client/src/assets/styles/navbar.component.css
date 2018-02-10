@@ -1,18 +1,19 @@
 
 .navbar {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 20px;
     height:25px;
 }
 
 .list {
-    float: left;
+    width: 80%;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .list li {
+    float: left;
     display: inline;
     margin-right: 15px;
 }

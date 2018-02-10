@@ -7,7 +7,6 @@ import '../assets/styles/navbar.component.css';
 export default class Navbar extends Component {
 
     render() {
-        /* TODO: fix responsiveness */
         return (
             <div className="navbar">
                 <ul className="list">

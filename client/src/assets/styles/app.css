@@ -1,6 +1,7 @@
 
 :global(*) {
     font-family:"Courier New", Courier, monospace;
+    font-size: 14px;
 }
 
 h2 {
