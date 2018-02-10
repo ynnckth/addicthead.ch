@@ -7,6 +7,7 @@ import '../assets/styles/navbar.component.css';
 export default class Navbar extends Component {
 
     render() {
+        /* TODO: fix responsiveness */
         return (
             <div className="navbar">
                 <ul className="list">
@@ -23,7 +24,7 @@ export default class Navbar extends Component {
                         <i className="fab fa-bandcamp" />
                     </a>
                     <a className="link" href="https://www.youtube.com/channel/UCLSLQIwQ4BleT7IsoHNdBGw">
-                        <i class="fab fa-youtube" />
+                        <i className="fab fa-youtube" />
                     </a>
                     <a className="link" href="https://www.facebook.com/addicthead">
                         <i className="fab fa-facebook" />
