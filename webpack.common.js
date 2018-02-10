@@ -29,7 +29,11 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({template: 'client/index.html'}),
+        new HtmlWebpackPlugin(
+            {
+                template: 'client/index.html',
+                favicon: 'client/src/assets/images/favicon.ico'
+            }),
         new CleanWebpackPlugin(['client/dist'])
     ]
 };
