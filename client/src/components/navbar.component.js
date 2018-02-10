@@ -10,6 +10,7 @@ import '../assets/styles/navbar.component.css';
 export default class Navbar extends Component {
 
     render() {
+        /* TODO: align refs icons vertically */
         return (
             <div className="navbar">
                 <ul className="list">

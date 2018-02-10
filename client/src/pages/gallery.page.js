@@ -7,7 +7,10 @@ export default class Gallery extends Component {
 
     render() {
         return (
-            <div>Gallery goes here!</div>
+            <div>
+                <h1>gallery</h1>
+                <p>insert here!</p>
+            </div>
         )
     }
 }

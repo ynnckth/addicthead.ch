@@ -1,6 +1,7 @@
 
 import React from "react";
 import {Component} from "react";
+import GigsComponent from "../components/gigs.component";
 
 
 export default class Gigs extends Component {
@@ -9,10 +10,7 @@ export default class Gigs extends Component {
         return (
             <div>
                 <h1>gigs</h1>
-                <h2>upcoming</h2>
-
-                <h2>past</h2>
-
+                <GigsComponent showPast={true} />
             </div>
         )
     }
