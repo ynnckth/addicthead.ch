@@ -3,21 +3,26 @@ import React from "react";
 import {Component} from "react";
 import '../assets/styles/gallery.component.css';
 
-
-function importAll(r) { return r.keys().map(r); }
-const thumbs = importAll(require.context('../assets/images/gigs/thumbs', false, /\.(png|jpe?g|svg)$/));
+function importAll(r) {
+    console.log(JSON.stringify(r.keys()));
+    return r.keys().map(r);
+}
+const THUMBS = importAll(require.context('../assets/images/gigs/thumbs', false, /\.(png|jpe?g|svg)$/));
+const LARGES = importAll(require.context('../assets/images/gigs/larges', false, /\.(png|jpe?g|svg)$/));
 
 export default class GalleryComponent extends Component {
 
     render() {
         /* TODO: fix responsiveness of gallery thumbs */
-        /* TODO: add lightbox gallery and map thumbs to images */
         return (
             <div className="gallery">
-                {thumbs.map(thumb =>
+                {THUMBS.map((thumb, idx) =>
                     <div className="thumb">
-                        <img src={thumb} />
-                    </div>)}
+                        <a href={LARGES[idx]} data-lightbox="mygallery">
+                            <img src={thumb} />
+                        </a>
+                    </div>
+                )}
             </div>
         )
     }
