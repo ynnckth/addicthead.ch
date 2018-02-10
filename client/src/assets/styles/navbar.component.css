@@ -31,10 +31,7 @@ a:hover {
 }
 
 .link {
-    margin-left: 3px;
+    margin-left: 10px;
     text-decoration: none;
-}
-
-.link img {
-    border: 0 none;
+    font-size: 1.1em;
 }

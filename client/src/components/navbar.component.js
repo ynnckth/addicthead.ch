@@ -1,16 +1,12 @@
 import React from "react";
 import {Component} from "react";
 import {Link} from "react-router-dom";
-import bandcamp from '../assets/images/bandcamp-icon.png';
-import youtube from '../assets/images/youtube-icon.png';
-import facebook from '../assets/images/facebook-icon.png';
 import '../assets/styles/navbar.component.css';
 
 
 export default class Navbar extends Component {
 
     render() {
-        /* TODO: align refs icons vertically */
         return (
             <div className="navbar">
                 <ul className="list">
@@ -23,17 +19,14 @@ export default class Navbar extends Component {
                 </ul>
 
                 <div className="refs">
-                    <a className="link"
-                       href="http://addicthead.bandcamp.com/releases">
-                        <img src={bandcamp} alt="bandcamp" height="20" width="20" />
+                    <a className="link" href="http://addicthead.bandcamp.com/releases">
+                        <i className="fab fa-bandcamp" />
                     </a>
-                    <a className="link"
-                       href="https://www.youtube.com/channel/UCLSLQIwQ4BleT7IsoHNdBGw">
-                        <img src={youtube} alt="youtube" height="27" width="27" />
+                    <a className="link" href="https://www.youtube.com/channel/UCLSLQIwQ4BleT7IsoHNdBGw">
+                        <i class="fab fa-youtube" />
                     </a>
-                    <a className="link"
-                       href="https://www.facebook.com/addicthead">
-                        <img src={facebook} alt="facebook" height="16" width="16" />
+                    <a className="link" href="https://www.facebook.com/addicthead">
+                        <i className="fab fa-facebook" />
                     </a>
                 </div>
             </div>
