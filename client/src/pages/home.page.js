@@ -20,8 +20,10 @@ export default class Home extends Component {
                 </div>
                 <GigsComponent showPast={false} />
 
-                <h2>some impressions...</h2>
-                <GalleryComponent/>
+                <div className="some-impressions">
+                    <h2>some impressions...</h2>
+                    <GalleryComponent/>
+                </div>
             </div>
         )
     }

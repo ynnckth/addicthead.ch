@@ -13,3 +13,17 @@
     width: 170px;
     height: 312px;
 }
+
+.some-impressions {
+    margin-right: 200px;
+}
+
+@media (max-width: 1000px) {
+    .album-preview-container {
+        display: none;
+    }
+
+    .some-impressions {
+        margin: 0 auto;
+    }
+}
