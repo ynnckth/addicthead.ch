@@ -10,6 +10,7 @@ const thumbs = importAll(require.context('../assets/images/gigs/thumbs', false, 
 export default class GalleryComponent extends Component {
 
     render() {
+        /* TODO: fix responsiveness of gallery thumbs */
         /* TODO: add lightbox gallery and map thumbs to images */
         return (
             <div className="gallery">
