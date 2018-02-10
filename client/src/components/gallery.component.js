@@ -4,7 +4,6 @@ import {Component} from "react";
 import '../assets/styles/gallery.component.css';
 
 function importAll(r) {
-    console.log(JSON.stringify(r.keys()));
     return r.keys().map(r);
 }
 const THUMBS = importAll(require.context('../assets/images/gigs/thumbs', false, /\.(png|jpe?g|svg)$/));

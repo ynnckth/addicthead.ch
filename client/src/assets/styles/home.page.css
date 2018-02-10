@@ -1,0 +1,15 @@
+
+.album-preview-container {
+    float:right;
+    width: 170px;
+}
+
+.album-preview {
+    position: fixed;
+}
+
+.bandcamp-iframe {
+    border: 0;
+    width: 170px;
+    height: 312px;
+}

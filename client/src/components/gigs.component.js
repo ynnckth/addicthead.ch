@@ -10,7 +10,6 @@ export default class GigsComponent extends Component {
     }
 
     render() {
-        /* TODO: extract gigs into modifiable file */
         return (
             <div>
                 <h2>upcoming</h2>
