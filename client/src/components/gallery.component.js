@@ -12,7 +12,6 @@ const LARGES = importAll(require.context('../assets/images/gigs/larges', false, 
 export default class GalleryComponent extends Component {
 
     render() {
-        /* TODO: fix responsiveness of gallery thumbs */
         return (
             <div className="gallery">
                 {THUMBS.map((thumb, idx) =>
