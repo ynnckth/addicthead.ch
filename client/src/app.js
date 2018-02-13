@@ -21,12 +21,12 @@ export default class App extends Component {
                 <Header />
                 <Navbar />
                 <Switch>
-                    <Route exact path='/' component={Home}/>
                     <Route exact path='/music' component={Music}/>
                     <Route exact path='/gigs' component={Gigs}/>
                     <Route exact path='/gallery' component={Gallery}/>
                     <Route exact path='/about' component={About}/>
                     <Route exact path='/contact' component={Contact}/>
+                    <Route component={Home}/>
                 </Switch>
                 <Footer />
             </div>
