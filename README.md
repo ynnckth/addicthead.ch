@@ -2,6 +2,8 @@
 Public band website running at: [http://www.addicthead.ch](http://www.addicthead.ch)
 
 ## Development
+This is a client-only single page app using React.
+
 Initial project setup after cloning:  
 `npm install`
 
