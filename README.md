@@ -8,5 +8,9 @@ Initial project setup after cloning:
 Start a live reload server for client development running on port 8080 (hot deployer) (http://localhost:8080):  
 `npm run watch:client`
 
+
+Build client for production:  
+`npm run build:client`
+
 ## Deployment
 tbd
