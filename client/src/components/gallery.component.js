@@ -15,7 +15,7 @@ export default class GalleryComponent extends Component {
         return (
             <div className="gallery">
                 {THUMBS.map((thumb, idx) =>
-                    <div className="thumb">
+                    <div key={idx} className="thumb">
                         <a href={LARGES[idx]} data-lightbox="mygallery">
                             <img src={thumb} />
                         </a>
