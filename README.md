@@ -33,4 +33,7 @@ Build client for production:
 Build the client for production by running:  
 `npm run build:client`
 
-Then move the built `dist` directory to the production http server.
+Test the app with a local http server:  
+`node_modules/http-server/bin/http-server client/dist`
+
+Then move/upload the built `dist` directory to the production http server.
