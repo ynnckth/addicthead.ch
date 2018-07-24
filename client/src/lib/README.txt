@@ -1,0 +1,1 @@
+The lib assets are currently loaded from a CDN. The content of this folder acts as a backup for the libs.
