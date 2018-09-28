@@ -3,6 +3,7 @@ import React from "react";
 import {Component} from "react";
 import GigsComponent from "../components/gigs.component";
 import GalleryComponent from "../components/gallery.component";
+import Feed from "../components/feed.component";
 import '../assets/styles/home.page.css';
 
 
@@ -18,7 +19,10 @@ export default class Home extends Component {
                         </iframe>
                     </div>
                 </div>
+
                 <GigsComponent showPast={false} />
+
+                <Feed />
 
                 <div className="some-impressions">
                     <h2>some impressions...</h2>

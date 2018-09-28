@@ -1,0 +1,30 @@
+
+.last-gig {
+    height: 580px;
+}
+
+.last-gig img {
+    max-width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+.last-gig p {
+    width: 80%;
+}
+
+@media (max-width: 1000px) {
+    .last-gig p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .last-gig p {
+        float: left;
+    }
+
+    .last-gig img {
+        width: 100%;
+    }
+}

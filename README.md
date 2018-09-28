@@ -1,7 +1,5 @@
 # addicthead.ch
-Public band website running at: [http://www.addicthead.ch](http://www.addicthead.ch)
-
-## Maintenance
+Public [band website](http://www.addicthead.ch)
 
 **Adding gigs**  
 To add a gig insert it into the `gigs.json` file in the specified format.
@@ -19,21 +17,21 @@ with the same 4 digit number as the large one.
 This is a client-only single page app using React.
 
 Initial project setup after cloning:  
-`npm install`
+> `npm install`
 
 Start a live reload server for client development running on port 8080 (hot deployer) (http://localhost:8080):  
-`npm run watch:client`
+> `npm run watch:client`
 
 
 Build client for production:  
-`npm run build:client`
+> `npm run build:client`
 
 
 ## Deployment
 Build the client for production by running:  
-`npm run build:client`
+> `npm run build:client`
 
 Test the app with a local http server:  
-`node_modules/http-server/bin/http-server client/dist`
+> `node_modules/http-server/bin/http-server client/dist`
 
 Then move/upload the built `dist` directory to the production http server.
